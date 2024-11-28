@@ -1,0 +1,110 @@
+/* Reset some default styling */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Skip link styling */
+.skip-link {
+  position: absolute;
+  top: -40px; /* Initially hide it off-screen */
+  left: 0;
+  padding: 10px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.skip-link:focus {
+  top: 0; /* Show when focused */
+  background-color: #000;
+  color: #fff;
+}
+
+/* Header styling */
+header {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+  position: relative;
+  top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Grid layout styling */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.grid article {
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+/* Flex layout styling */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.flex div {
+  width: 48%;
+  background-color: #d0f0c0;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.flex img {
+  width: 100%;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #000;
+}
